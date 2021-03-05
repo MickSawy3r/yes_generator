@@ -34,7 +34,7 @@ function getPackageName(): string {
     return s['name'];
 }
 
-function main() {
+export function main() {
     const packageName = getPackageName();
 
     switch (process.argv[2]) {

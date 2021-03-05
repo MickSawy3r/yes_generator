@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-var args = process.argv.splice(process.execArgv.length + 2);
-var yesGenerator = require('../dist/app');
+var yesGenerator = require('./app.js');
 
 yesGenerator.main();
 

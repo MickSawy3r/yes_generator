@@ -1,6 +1,6 @@
 {
-    "name": "yes-code-generator",
-    "version": "1.0.0",
+    "name": "dart-module-generator",
+    "version": "1.0.1",
     "main": "dist/app.js",
     "license": "MIT",
     "preferGlobal": true,
@@ -12,7 +12,7 @@
         "start": "node dist/app.js"
     },
     "bin": {
-        "generate": "./bin/yes-generator.js"
+        "yes-generate": "./bin/yes-generator.js"
     },
     "devDependencies": {
         "@types/js-yaml": "^4.0.0",

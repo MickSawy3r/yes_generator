@@ -46,5 +46,3 @@ function main() {
             console.log('Please use g to generate modules');
     }
 }
-
-main();

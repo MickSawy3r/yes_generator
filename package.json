@@ -1,10 +1,18 @@
 {
     "name": "yes-code-generator",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "dist/app.js",
     "license": "MIT",
+    "preferGlobal": true,
+    "author": {
+        "name": "Mohammad Al Kalaleeb",
+        "email": "mohammad.al.kalaleeb@gmail.com"
+    },
     "scripts": {
         "start": "node dist/app.js"
+    },
+    "bin": {
+        "generate": "./bin/yes-generator.js"
     },
     "devDependencies": {
         "@types/js-yaml": "^4.0.0",

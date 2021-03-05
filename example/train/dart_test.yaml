@@ -1,0 +1,9 @@
+presets:
+  travis:
+    override_platforms:
+      chrome:
+        settings:
+          headless: false
+
+platforms:
+  - chrome

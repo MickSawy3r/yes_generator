@@ -1,0 +1,14 @@
+name: yes_generator.example.train
+description: A more complex example of using package:inject
+
+dependencies:
+  yes_generator:
+    path: ../../package/yes_generator
+
+dev_dependencies:
+  build_runner: ^1.0.0
+  build_test: ^0.10.1+1
+  build_web_compilers: ^1.0.0
+  yes_generator:
+    path: ../../package/yes_generator
+  test: ^1.0.0

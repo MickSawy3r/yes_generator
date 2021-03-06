@@ -1,0 +1,27 @@
+{
+    "name": "dart-module-generator",
+    "version": "1.0.3",
+    "main": "dist/app.js",
+    "license": "MIT",
+    "preferGlobal": true,
+    "author": {
+        "name": "Mohammad Al Kalaleeb",
+        "email": "mohammad.al.kalaleeb@gmail.com"
+    },
+    "scripts": {
+        "start": "node dist/app.js"
+    },
+    "bin": {
+        "yes-generate": "./bin/yes-generator.js"
+    },
+    "devDependencies": {
+        "@types/js-yaml": "^4.0.0",
+        "@types/node": "^14.14.31",
+        "ts-node": "^9.1.1",
+        "typescript": "^4.2.3"
+    },
+    "dependencies": {
+        "js-yaml": "^4.0.0",
+        "path": "^0.12.7"
+    }
+}

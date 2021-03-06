@@ -10,7 +10,9 @@ which is something I don't know how to do at this moment.
 Install it and use it :smile:
 
 ```bash
-yarn global add dart-module-generator
+yarn global add dart-module-generator # If you use yarn
+npm i -g dart-module-generator # If you don't
+
 ```
 
 And then use it.

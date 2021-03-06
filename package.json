@@ -1,6 +1,6 @@
 {
     "name": "dart-module-generator",
-    "version": "1.0.1",
+    "version": "1.0.3",
     "main": "dist/app.js",
     "license": "MIT",
     "preferGlobal": true,

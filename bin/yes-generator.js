@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var yesGenerator = require('./app.js');
+var yesGenerator = require('../dist/app.js');
 
 yesGenerator.main();
 
